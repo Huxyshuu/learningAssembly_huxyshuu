@@ -44,15 +44,15 @@ sprint:
 ; void sprintLF(String message)
 ; String printing with line feed function
 sprintLF:
-    call sprint
+    call    sprint
 
-    push eax
-    mov eax, 0x0A
-    push eax
-    mov eax, esp
-    call sprint
-    pop eax
-    pop eax
+    push    eax
+    mov     eax, 0x0A
+    push    eax
+    mov     eax, esp
+    call    sprint
+    pop     eax
+    pop     eax
     ret
 
 
