@@ -1,4 +1,6 @@
-hello
-hello.elf
-hello.o
+*
+!*/
+!*.*
+*.elf
+*.o
 improvement.txt
